@@ -13,9 +13,10 @@ function MobileNav({open, setOpen}) {
                 <a className={`text-xl font-semibold href="/"`}>LOGO</a>
             </div>
             <div className={`flex flex-col ml-4`}>
-                <a className="text-xl fonnt-medium my-4" href="#" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>O nas</a>
-                <a className="text-xl fonnt-medium my-4" href="#" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Kontakt</a>
-                <a className="text-xl fonnt-medium my-4" href="#" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Nasze Projekty</a>
+            <a className="text-xl fonnt-medium my-4" href="/Projects" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Nasze Projekty</a>
+                <a className="text-xl fonnt-medium my-4" href="/About" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>O nas</a>
+                <a className="text-xl fonnt-medium my-4" href="/Contact" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Kontakt</a>
+                
             </div>
         </div>
       
@@ -32,21 +33,22 @@ export default function Navbar(){
             <div className="w-3/12 flex items-center">
                 <a className="text-2xl font-semibld" href="/">LOGO</a>
             </div>
-            <div className="z-50 flex relative w-8 h-8 flex-col justyfy-between items-center md:hidden" onClick={() => {setOpen(!open)}}>
+            <div className=" flex relative w-8 h-8 flex-col justyfy-between items-center md:hidden" onClick={() => {setOpen(!open)}}>
                 <span className={`h-1 w-full mt-1 bg-blue-700 rounded-lg transform transition duraton-300 ease-in-out ${open ? "rotate-45 -translate-y-3.5" :"" }`}/>
                 <span className={` h-1 w-full mt-1 bg-blue-700 rounded-lg transform transition duraton-300 ease-in-out ${open ? "w-0" :"w-full" }`}/>
                 <span className={`h-1 w-full mt-1 bg-blue-700 rounded-lg transform transition duraton-300 ease-in-out ${open ? "rotate-45 -translate-y-3.5" :"" }`}/>
             </div>
 
             <div className="hidden md:flex">
-                <NavLink to="#">
-                    Kontakt
+                
+                <NavLink to="/Projects">
+                    Nasze Projekty
                 </NavLink>
-                <NavLink to="#">
+                <NavLink to="/About">
                     O nas
                 </NavLink>
-                <NavLink to="#">
-                    Nasze Projekty
+                <NavLink to="/Contact">
+                    Kontakt
                 </NavLink>
             </div>
         </nav>
