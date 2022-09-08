@@ -3,19 +3,16 @@
 
 
 
-export default function Card({image, title, text}){
+export default function Card({ title, text}){
     return(
-        <div className=" p-10  rounded m-5   shadow-lg" >
-            
-           <img className="p-2 display: mx-auto my-10 rounded-full  " src={image} height={400} width={400} />
-            
-           <div className="bg-slate-200  rounded-xl p-2 " >
-                <div className="font-bold my-10 text-xl text-center p-2">
+        <div className=" p-10  rounded-xl m-5   shadow-md" >
+           <div className="bg-[#8F9BAC] bg-opacity-20  h-60  rounded-xl p-2 text-opacity-20" >
+                <div className="mx-3  text-left text-white text-opacity-70 p-2">
                     {title}
                     
                 </div>
                 
-                <div className="pt-5 p-8 my-10 text-justify space-y-3">
+                <div className="   text-justify text-opacity-70 text-white  p-5">
                     {text}
             
                 </div>

@@ -4,29 +4,58 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-   <div>
+   <div className=' bg-[#17181B] h-min-scenn '>
     <Heading/>
       <main >
      
         
-        <div className=" grid xl:grid-cols-2 row-span-2 p-5 		]	">
-        <Card  image={"/photo.jpg"} title={"Marcin Bikiewicz"} text={" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, mac"}/>
-          <div className=' justify-center   p-10' >
-          <img src='/art.jpg' width="100%" className='' />
+        <div className=" grid xl:grid-cols-3 row-span-2 shadows-lg 	]	">
+         <div className=" bg-[url('/rudy.jpg')] bg-cover bg-center rounded-lg    min-h-screen  	"  >
+          <div className='h-1/2'>
 
-        
-          <p className='text-justify shadow-lg p-5 '>Lorem 
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
           </div>
+          <div className='grid h-1/4 text-white'>
+           
+            
 
+          
+            
+          </div>
+          <div className=' flex-initial bg-black  bg-opacity-50 rounded-full text-white text-center  p-10  content-end items-center'>
+          <h1 className="p-2 text-5xl ">Marcin Bikiewicz</h1>
+            <p className='text-justyfy '>web developer</p>
+
+          </div>
+         </div>
+         
+        <div className='text-white'>
+         <div className='h-1/8'></div>
+          <div>
+
+          <Card title={"Galeria twoich produktów"} text={"spraw aby się zerali szukają informacji o twojej firmie w internecie"}/>
+          <Card title={"strona Informacyjnia"} text={"spraw aby się zerali szukają informacji o twojej firmie w internecie"}/>
+          </div>
+        <div>
+          
+        </div>
+        
+
+        </div>
+        
+          <div>
+            <div className='h-1/8'></div>
+            <Card title={"Strona Informacyjnia"} text={"spraw aby się zerali spraw aby się zeralispraw aby się zeraliszukają informacji o twojej firmie w internecie"}/>
+            <Card title={"Sklep Internetowy"} text={" Sklep zaprojektowany pod ciebie  który przciądnie klietów."}/> 
+            <div className='text-white'>dupa</div>
+          </div>
+       
        
         </div >
         
       </main>
-      <Footer/>
-
       
+
     </div>
+    
   )
 }
