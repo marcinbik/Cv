@@ -34,6 +34,12 @@ export default function Home() {
 
           <Card title={"Galeria twoich produktów"} text={"spraw aby się zerali szukają informacji o twojej firmie w internecie"}/>
           <Card title={"strona Informacyjnia"} text={"spraw aby się zerali szukają informacji o twojej firmie w internecie"}/>
+          <div className=' mx-10 flex'>
+            <div className='text-white text-left p-10 w-1/2'>dupa</div>           
+             <div className='text-white  p-10'>dupa</div>
+             
+
+            </div>
           </div>
         <div>
           
@@ -46,7 +52,9 @@ export default function Home() {
             <div className='h-1/8'></div>
             <Card title={"Strona Informacyjnia"} text={"spraw aby się zerali spraw aby się zeralispraw aby się zeraliszukają informacji o twojej firmie w internecie"}/>
             <Card title={"Sklep Internetowy"} text={" Sklep zaprojektowany pod ciebie  który przciądnie klietów."}/> 
-            <div className='text-white'>dupa</div>
+            <div className='text-white w-1/4 p-10' >dupa</div>
+
+           
           </div>
        
        
