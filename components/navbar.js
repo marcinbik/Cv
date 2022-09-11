@@ -13,7 +13,7 @@ function MobileNav({open, setOpen}) {
                 <a className={`text-2xl font-semibold href="/"`}>MB</a>
             </div>
             <div className={`flex flex-col mx-20`}>
-            <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/Projects" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Projekty</a>
+            <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/Projects" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
                 <a className="text-2xl p-2 text-center  hover:border-2 fonnt-medium my-4" href="/About" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>O Mnie</a>
                 <a className="text-2xl p-2 text-center hover:border-2 fonnt-medium my-4" href="/Contact" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Kontakt</a>
                 
@@ -28,7 +28,7 @@ function MobileNav({open, setOpen}) {
 export default function Navbar(){
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter z-50 drop-shadow-md text-white font-bold rounded-md  bg-[#9c3848] px-5 py-5 h-20 items-center">
+        <nav className="flex filter z-50 drop-shadow-md text-white font-bold rounded-md  bg-[#b12c2c] px-5 py-5 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
                 <a className="text-2xl font-semibld " href="/">MB</a>
@@ -43,13 +43,13 @@ export default function Navbar(){
             <div className="hidden md:flex">
                 
                 <NavLink to="/Projects">
-                    Moje Projekty
+                   <p className="hover:text-black hover:m-1"> Moje Usługi</p>
                 </NavLink>
                 <NavLink to="/About">
-                    O Mnie
+                <p className="hover:text-black hover:m-1"> O Mnie</p>
                 </NavLink>
                 <NavLink to="/Contact">
-                    Kontakt
+                <p className="hover:text-black hover:m-1"> Kontakt</p>
                 </NavLink>
             </div>
         </nav>
