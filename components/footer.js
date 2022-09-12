@@ -7,10 +7,10 @@ export default function footer() {
     return (
 
 
-<footer className="text-center p-10 shadow-lg bg-[#0F4C75] my-10 ">
-<p> &copy; Marcin Bikiewicz</p>
-<FontAwesomeIcon icon={faEnvelope} />
-  <a href="mailto:marcinbikiewicz@gmail.com"> marcinbikiewicz@gmail.com</a>
+<footer className="text-center text-white  m-1 p-10 pb-10 mx-0 mb-0 h-max shadow-lg bg-[#0F4C75]  ">
+<p> &copy; Marcin Bikiewicz 2022</p>
+
+
 </footer>
 
 )

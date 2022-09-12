@@ -43,13 +43,13 @@ export default function Navbar(){
             <div className="hidden md:flex">
                 
                 <NavLink to="/Projects">
-                   <p className="hover:text-black hover:m-1"> Moje Usługi</p>
+                   <p className="hover:text-black hover:p-1"> Moje Usługi</p>
                 </NavLink>
                 <NavLink to="/About">
-                <p className="hover:text-black hover:m-1"> O Mnie</p>
+                <p className="hover:text-black hover:p-1"> O Mnie</p>
                 </NavLink>
                 <NavLink to="/Contact">
-                <p className="hover:text-black hover:m-1"> Kontakt</p>
+                <p className="hover:text-black hover:p-1"> Kontakt</p>
                 </NavLink>
             </div>
         </nav>
