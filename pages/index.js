@@ -2,7 +2,8 @@ import Heading from '../components/Heading'
 import Card from '../components/card'
 import Footer from '../components/footer'
 import Baner from '../components/baner'
-import Description from '../components/description'
+import BanerBotton from '../components/banerBotton'
+import Form from '../components/Form'
 
 export default function Home() {
   return (
@@ -19,16 +20,9 @@ export default function Home() {
                
         
         </div >
-        <div className='grid text-white   text-justyfy'>
-          <div className=' bg-[url("/ligth.jpg")]  bg-center h-[85vh]  sm:h-[60vh] xl:h-[40vh]'>
-
-          <Description text={'Wiem, że jedynie interaktywne rozwiązania prowadzą do sukcesu w biznesie.\n\r Dbam o zadowolenie moich klientów tworząc szerokie spectrum możliwości i technologi.\n\r Projektowanie stron internetowych to dla mnie nie tylko praca, ale także misja, której celem jest budowanie twojego  wizerunku w Internecie.\n\r Stworze dla ciebie skuteczną i profesjonalną witrynę.\n\r Może to być zarówno projekt niewielkiej strony internetowej, jak i mocno rozbudowany serwis.'}/>
-          </div>
         
-        </div>
-           
-         <Footer/>
-        
+          <BanerBotton/>
+          <Footer/>
          </div>
       </main> 
       
