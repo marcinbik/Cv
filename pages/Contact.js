@@ -4,9 +4,9 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div  >
-      <Heading/>
-      <main >
+    <main className='bg-[#17181B]' >
+    <Heading/>
+        <div  >
         
         <Map/>
         <div className=' flex p-20  items-center'>
@@ -24,11 +24,11 @@ export default function Home() {
        
         
         
-      </main>
      
       <Footer/>
 
-      
     </div>
+      
+      </main>
   )
 }

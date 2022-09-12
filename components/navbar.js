@@ -40,7 +40,7 @@ export default function Navbar(){
                 <span className={`h-1 w-full mt-1 bg-white rounded-lg transform transition duraton-300 ease-in-out ${open ? "rotate-45 -translate-y-3.5" :"" }`}/>
             </div>
 
-            <div className="hidden md:flex">
+            <div className="hidden md:sticky text-2xl md:flex ">
                 
                 <NavLink to="/Projects">
                    <p className="hover:text-[#17181B] "> Moje Usługi</p>

@@ -1,12 +1,14 @@
-import ScrollToBottom from 'react-scroll-to-bottom'
 
-export default function description(text){
+export default function Description(text){
     return(
-        <div className="md:flex bg-slate-200  rounded-xl p-8 md:p-5 " >
-        
-            <ScrollToBottom className="pt-6 md:p-8 text-center md:text-left space-y-4">
+
+        <div className=" bg-black text-2xl md:text-3xl bg-opacity-60 shadow-lg  p-8 md:p-5      h-full" >
+        <div className="h-1/5 "></div>
+           <div className="xl:px-80 xl:pl-10">
             {text.text}
-            </ScrollToBottom>
+
+           </div>
+            
            
         
         </div>

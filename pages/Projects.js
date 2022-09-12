@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div >
+    <div  className='bg-[#17181B] h-screen'>
       <Heading/>
       <main >
        
