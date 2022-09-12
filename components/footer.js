@@ -7,7 +7,7 @@ export default function footer() {
     return (
 
 
-<footer className="text-center text-white  m-1 p-10 pb-10 mx-0 mb-0 h-max shadow-lg bg-[#0F4C75]  ">
+<footer className="text-center text-white  m-1 p-5  mx-0 mb-0 h-max shadow-lg bg-[#94b0da83]  ">
 <p> &copy; Marcin Bikiewicz 2022</p>
 
 

@@ -6,8 +6,8 @@ import Image from "next/image"
 
 export default function Card({ image, title, text}){
     return(
-        <div className="  p-1  border-2 border-[#17181B]	 hover:border-[#9C3848] shadow-md " >
-            <div className="object-contain relative m-1 h-[28rem] ">
+        <div className="  p-1  border-2 border-[#17181B] 	 hover:border-[#9C3848] shadow-md " >
+            <div className="object-contain relative m-1 h-[22rem] ">
             <Image  src={image} className="rounded-md" layout="fill" />
 
             </div>

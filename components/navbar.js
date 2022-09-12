@@ -28,7 +28,7 @@ function MobileNav({open, setOpen}) {
 export default function Navbar(){
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter z-50 drop-shadow-md text-white font-bold rounded-md  bg-[#b12c2c] px-5 py-5 h-20 items-center">
+        <nav className="flex filter z-50 drop-shadow-md text-white font-bold   bg-[#b12c2c] px-5 py-5 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
                 <a className="text-2xl font-semibld " href="/">MB</a>
@@ -43,13 +43,13 @@ export default function Navbar(){
             <div className="hidden md:flex">
                 
                 <NavLink to="/Projects">
-                   <p className="hover:text-black hover:p-1"> Moje Usługi</p>
+                   <p className="hover:text-[#17181B] "> Moje Usługi</p>
                 </NavLink>
                 <NavLink to="/About">
-                <p className="hover:text-black hover:p-1"> O Mnie</p>
+                <p className="hover:text-[#17181B] "> O Mnie</p>
                 </NavLink>
                 <NavLink to="/Contact">
-                <p className="hover:text-black hover:p-1"> Kontakt</p>
+                <p className="hover:text-[#17181B] "> Kontakt</p>
                 </NavLink>
             </div>
         </nav>

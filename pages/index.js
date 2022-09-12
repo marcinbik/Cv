@@ -5,11 +5,11 @@ import Contact from '../components/Contact'
 
 export default function Home() {
   return (
-   <div className=' bg-[#17181B] pb-0 h-full mb-0 '>
+   <div className=' bg-[#17181B] pb-0 h-full  mb-0 '>
     <Heading/>
       <main >
-        <div className="grid p-1  xl:grid-cols-3 pb-0 mb-0 row-span-2 shadows-lg  	]	">
-         <div className=" bg-[url('/rudy.jpg')]  bg-cover  mx-1  pb-0 mb-0 bg-center rounded-lg  xl:h-full min-h-screen" >
+        <div className="grid p-0  xl:grid-cols-3 pb-0 mb-0 row-span-2 shadows-lg  	]	">
+         <div className=" bg-[url('/rudy.jpg')]  bg-cover  mx-0  pb-7 mb-0 bg-center  xl:pb-0 xl:h-full min-h-screen" >
               <div className=' h-1/2'>
               </div>
               <div className=' grid h-1/4 text-white'>
@@ -31,7 +31,7 @@ export default function Home() {
         </div >
       </main>
       
-      <Footer></Footer>
+      
     </div>
     
   )
