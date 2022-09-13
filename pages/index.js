@@ -3,14 +3,14 @@ import Card from '../components/card'
 import Footer from '../components/footer'
 import Baner from '../components/baner'
 import BanerBotton from '../components/banerBotton'
-import Form from '../components/Form'
+
 
 export default function Home() {
   return (
     <main >
         <div className=' bg-[#17181B] pb-0   mb-0 h-fit'>
           <Heading/>
-        <div className="  xl:flex  p-0     pb-0 mb-0  shadows-lg  	]	">
+        <div className="  xl:flex        mb-0  shadows-lg  	]	">
          <Baner/>
          
           <div className=' xl:inline-flex  flex-grid  h-fit '>
