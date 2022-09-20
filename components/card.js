@@ -14,7 +14,7 @@ export default function Card({ image, title, text}){
 
             </div>
 
-           <div className="h-fit " >
+           <div className="h-fit  " >
                 <div className="  text-center text-4xl text-white text-opacity-90 p-2  xl:pt-[7vh] font-bold">
                     {title}
                     

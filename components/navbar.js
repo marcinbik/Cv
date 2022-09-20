@@ -10,7 +10,7 @@ function MobileNav({open, setOpen}) {
     return(
         <div className={`absolute top-0 left-0 h-screen w-screen bg-black bg-opacity-50 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-300 else-in-out filter drop-shadow-md`}>
             <div className={`flex items-center justify-center filter drop-shadow-md bg-opacity-50 bg-black h-20`}>
-                <a className={`text-2xl font-semibold href="/"`}>MB</a>
+                <a className={`text-2xl font-semibold `} href="/">MB</a>
             </div>
             <div className={`flex flex-col mx-20`}>
             <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/Projects" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
