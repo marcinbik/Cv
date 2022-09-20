@@ -10,7 +10,7 @@ export default function Home() {
     <main >
         <div className=' bg-[#17181B] pb-0   mb-0 h-fit'>
           <Heading/>
-        <div className="  xl:flex        mb-0  shadows-lg  	]	">
+        <div className="  xl:flex  mb-0  shadows-lg  	]	">
          <Baner/>
          
           <div className=' xl:inline-flex  flex-grid  h-fit '>
