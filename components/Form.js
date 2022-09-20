@@ -1,7 +1,7 @@
 export default function () {
     return(
         
-            <form className="xl:w-[30vw]" action="/send-data-here" method="post">
+            <form className="xl:w-[30vw] m-10"  action="/send-data-here" method="post">
                 <label className="block text-white text-sm font-bold mb-2" for="first">Imię:</label>
                 <input type="text" id="first" name="first" className='class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-black mb-3 leading-tight focus:outline-none focus:shadow-outline"' />
                 <label className="block text-white text-sm font-bold mb-2" for="last">Nazwisko:</label>

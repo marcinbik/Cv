@@ -7,9 +7,9 @@ import ContactButton from '../components/ContactButton'
 
 export default function Home() {
   return (
-    <main className='bg-[#17181B]' >
-    <Heading/>
-        <div  >
+    <main  >
+        <div className='grid h-fit m-0 bg-[#17181B]' >
+        <Heading/>
         
         <Map/>
         
@@ -17,20 +17,20 @@ export default function Home() {
         <div className="font-bold bg-[url('/post.jpg')]  bg-center ">
           <div className='bg-black bg-opacity-40'>
 
-          <h1 className="p-5  text-center  text-white text-3xl">Napisz do mnie</h1>
+          <h1 className="m-0  text-center pt-[2vh] text-white text-3xl">Napisz do mnie</h1>
           <div className="grid">
-               <div className='pl-10 xl:pl-[35vw] '>
+               <div className='  xl:pl-[35vw] '>
 
                <Form/>
                </div>
             <div >
-              <div className=" h-[40vh] mb-10 mr-10"/>
+              <div className=" h-[40vh] mb-10"/>
             </div>
 
           </div >
+          <Footer/>
         </div>
     </div>
-      <Footer/>
           </div>
       
       </main>
