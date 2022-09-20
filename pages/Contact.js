@@ -3,7 +3,7 @@ import Map from '../components/Map'
 import Footer from '../components/footer'
 import Form from '../components/Form'
 import ContactButton from '../components/ContactButton'
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -14,18 +14,24 @@ export default function Home() {
         <Map/>
         
         <ContactButton/>
-          <h1 className='p-5  font-bold text-white text-3xl'>Napisz do mnie</h1>
-        <div className=' '>
-          <div className=' grid-cols-2 '>
-          <Form/>
+        <div className="font-bold bg-[url('/post.jpg')]  bg-center ">
+          <div className='bg-black bg-opacity-40'>
+
+          <h1 className="p-5  text-center  text-white text-3xl">Napisz do mnie</h1>
+          <div className="grid">
+               <div className='pl-10 xl:pl-[35vw] '>
+
+               <Form/>
+               </div>
             <div >
-              <Image width={'60vw'} height={'100'} src='/post.jpg'/>
+              <div className=" h-[40vh] mb-10 mr-10"/>
             </div>
 
           </div >
         </div>
-      <Footer/>
     </div>
+      <Footer/>
+          </div>
       
       </main>
   )
