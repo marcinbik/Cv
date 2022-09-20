@@ -8,9 +8,9 @@ import BanerBotton from '../components/banerBotton'
 export default function Home() {
   return (
     <main >
-        <div className=' bg-[#17181B] pb-0   mb-0 h-fit'>
+        <div className=' bg-[#17181B] pb-0  xl:w-fit w-[150vw]  h-fit'>
           <Heading/>
-        <div className="  xl:flex  mb-0  shadows-lg  	]	">
+        <div className="grid  xl:flex  mb-0  shadows-lg  	]	">
          <Baner/>
          
           <div className=' xl:inline-flex  flex-grid  h-fit '>
@@ -22,6 +22,7 @@ export default function Home() {
         </div >
         
           <BanerBotton/>
+          
           <Footer/>
          </div>
       </main> 

@@ -13,9 +13,9 @@ export default function Home() {
         
         <Map/>
         
-        <ContactButton/>
         <div className="font-bold bg-[url('/post.jpg')]  bg-center ">
           <div className='bg-black bg-opacity-40'>
+        <ContactButton/>
 
           <h1 className="m-0  text-center pt-[2vh] text-white text-3xl">Napisz do mnie</h1>
           <div className="grid">
