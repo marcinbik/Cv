@@ -15,12 +15,12 @@ export default function Card({ image, title, text}){
             </div>
 
            <div className="h-fit  " >
-                <div className="  text-center text-4xl text-white text-opacity-90 p-5 m-2 xl:pt-[7vh] font-bold">
+                <div className="  text-center text-3xl text-white text-opacity-90 p-5  xl:pt-[10vh] font-bold">
                     {title}
                     
                 </div>
                 
-                <div className="    text-justyfy p-4 mx-5 text-xl pb-10 text-opacity-90 text-white ">
+                <div className="    text-justyfy p-10  text-xl  text-opacity-90 text-white ">
                     {text}
             
                 </div>

@@ -8,9 +8,9 @@ function NavLink({to, children})
 
 function MobileNav({open, setOpen}) {
     return(
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-black bg-opacity-50 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-300 else-in-out filter drop-shadow-md`}>
+        <div className={`absolute top-0 left-0 h-screen w-[150vw] xl:w-screen bg-black bg-opacity-50 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-500 else-in-out filter drop-shadow-md`}>
             <div className={`flex items-center justify-center filter drop-shadow-md bg-opacity-50 bg-black h-20`}>
-                <a className={`text-2xl font-semibold `} href="/">MB</a>
+                <a className={`text-2xl  font-semibold `} href="/">MB</a>
             </div>
             <div className={`flex flex-col mx-20`}>
             <a className="text-2xl hover:border-solid p-2 text-center hover:border-2 font-medium my-4" href="/Projects" onClick={()=> setTimeout(()=> {setOpen(!open)},100)}>Moje Usługi</a>
@@ -40,7 +40,7 @@ export default function Navbar(){
                 <span className={`h-1 w-full mt-1 bg-white rounded-lg transform transition duraton-300 ease-in-out ${open ? "rotate-45 -translate-y-3.5" :"" }`}/>
             </div>
 
-            <div className="hidden md:sticky text-2xl md:flex ">
+            <div className="hidden md:sticky w-[90vh] text-2xl md:flex ">
                 
                 <NavLink to="/Projects">
                    <p className="hover:text-[#17181B] "> Moje Usługi</p>
