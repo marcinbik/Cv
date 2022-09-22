@@ -8,7 +8,7 @@ function NavLink({to, children})
 
 function MobileNav({open, setOpen}) {
     return(
-        <div className={`absolute top-0 left-0 h-screen w-[150vw] xl:w-screen bg-black bg-opacity-50 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-500 else-in-out filter drop-shadow-md`}>
+        <div className={`absolute top-0 left-0 h-screen w-[100vw] xl:w-screen bg-black bg-opacity-50 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-tranform duration-500 else-in-out filter drop-shadow-md`}>
             <div className={`flex items-center justify-center filter drop-shadow-md bg-opacity-50 bg-black h-20`}>
                 <a className={`text-2xl  font-semibold `} href="/">MB</a>
             </div>

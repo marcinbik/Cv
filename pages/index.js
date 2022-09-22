@@ -8,7 +8,7 @@ import BanerBotton from '../components/banerBotton'
 export default function Home() {
   return (
     <main >
-        <div className=' bg-[#17181B] pb-0  xl:w-fit w-[150vw]  h-fit'>
+        <div className=' bg-[#17181B] pb-0  xl:w-fit w-[100]  h-fit'>
           <Heading/>
         <div className="grid  xl:flex  mb-0  shadows-lg  	]	">
          <Baner/>
